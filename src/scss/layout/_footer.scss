@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+
+.site-footer {
+    background-color: v.$rosa;
+    padding: 1rem;
+    text-align: center;
+
+    P{
+        display: inline-block;
+        margin: 0 4rem;
+        color: v.$blanco;
+        text-align: center;
+
+        span {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+    }
+}
+
